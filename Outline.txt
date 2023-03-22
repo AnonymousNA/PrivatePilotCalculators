@@ -1,0 +1,22 @@
+Steps to complete W+B
+ 1. Define static variables
+       - Max gross weight
+       - Basic empty weight
+       - Datum plane is set to 0in
+       - Fuel tank size and arm
+       - passenger seats (edit to allow for different configs)
+       - Max loading for all stations
+ 2. Get inputs
+       - Fuel type (avgas = 6 lbs/gal)
+       - Cargo areas load
+       - Any ballast
+ 3. Compute the moments
+ 4. Check if total moments and weight is within the envelope
+       - Here is a digitized version of the W+B envelope
+       - https://www.desmos.com/calculator/qzkmuzd755
+
+
+
+
+
+For now, we will isolate the static attributes of an aircraft to a separate build file.
